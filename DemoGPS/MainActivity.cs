@@ -26,7 +26,7 @@ namespace DemoGPS
 
             // Se define el tipo de exactitud requerida
             Criteria criteria = new Criteria {
-                Accuracy = Accuracy.Coarse 
+                Accuracy = Accuracy.Fine 
             };
 
             //Regresa la lista de proveedores en el telefono o tablet que cumplen con el criterio
@@ -48,11 +48,11 @@ namespace DemoGPS
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
-            textLatitude = FindViewById<Android.Widget.TextView>(Resource.Id.txtLongitude);
-            textLongitude = FindViewById<Android.Widget.TextView>(Resource.Id.txtLatitude);
-
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            textLatitude = FindViewById<Android.Widget.TextView>(Resource.Id.txtLongitude);
+            textLongitude = FindViewById<Android.Widget.TextView>(Resource.Id.txtLatitude);
 
             initializeLocationManager();
         }

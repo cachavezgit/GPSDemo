@@ -1694,25 +1694,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cachavez\\.nuget\\packages\\": {},
-    "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\cacha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cachavez\\source\\repos\\DemoGPS\\DemoGPS\\DemoGPS.csproj",
+      "projectUniqueName": "C:\\Users\\cacha\\xam-android-projects\\GPSDemo\\DemoGPS\\DemoGPS.csproj",
       "projectName": "DemoGPS",
-      "projectPath": "C:\\Users\\cachavez\\source\\repos\\DemoGPS\\DemoGPS\\DemoGPS.csproj",
-      "packagesPath": "C:\\Users\\cachavez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cachavez\\source\\repos\\DemoGPS\\DemoGPS\\obj\\",
+      "projectPath": "C:\\Users\\cacha\\xam-android-projects\\GPSDemo\\DemoGPS\\DemoGPS.csproj",
+      "packagesPath": "C:\\Users\\cacha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cacha\\xam-android-projects\\GPSDemo\\DemoGPS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\cachavez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\cacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
